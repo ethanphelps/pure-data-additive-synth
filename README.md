@@ -11,3 +11,4 @@ Required externals: cyclone 0.4, ceammc 0.8.0
 - Make a GUI
 - Figure out how to save and load presets
 - Add pitch shifting delay
+- Add oscilloscope to visualize the waveform being played
