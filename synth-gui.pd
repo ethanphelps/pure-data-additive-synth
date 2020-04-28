@@ -1,0 +1,2 @@
+#N canvas 286 120 1091 584 12;
+#X obj 33 32 additive-polysynth;
