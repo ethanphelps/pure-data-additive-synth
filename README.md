@@ -14,3 +14,5 @@ Required externals: cyclone 0.4, ceammc 0.8.0
 - Add oscilloscope to visualize the waveform being played
 - Add "random" button that sets all the harmonic sliders to random values
 - Add option for some non-integer harmonics to be added in
+- Try using sinesum to generate waveform with one oscillator instead of using 32 oscillators 
+- Give user option to type in harmonic volume levels
