@@ -13,3 +13,4 @@ Required externals: cyclone 0.4, ceammc 0.8.0
 - Add pitch shifting delay
 - Add oscilloscope to visualize the waveform being played
 - Add "random" button that sets all the harmonic sliders to random values
+- Add option for some non-integer harmonics to be added in
