@@ -1,4 +1,4 @@
-#N canvas 0 23 450 300 12;
+#N canvas 0 23 1387 731 12;
 #X obj 32 314 osc~;
 #X obj 34 374 *~, f 2;
 #X obj 38 338 r p1;
@@ -136,6 +136,7 @@
 #X obj 1192 289 *~ 30;
 #X obj 1233 289 *~ 31;
 #X obj 1273 289 *~ 32;
+#X text 31 57 comment;
 #X connect 0 0 1 0;
 #X connect 1 0 4 0;
 #X connect 2 0 1 1;

@@ -1,2 +1,19 @@
-#N canvas 332 188 1143 697 12;
+#N canvas 157 196 1565 697 12;
 #X obj 33 32 additive-polysynth;
+#X text 1078 49 This is my attempt at making a polyphonic 16 voice
+additive synthesizer. It's pretty basic in terms of functionality.
+You can control the "volume" of each of the 32 harmonics that are being
+summed into the combined waveform with the the sliders below. There
+are also sliders to control the even and odd harmonics simultaneously.
+There is a VCA for controling the loudness contour and a VCF for controlling
+the filter. The filter envelope is pretty broken right now and I'm
+not sure how to fix it. However \, the cutoff and resonance sliders
+for the actual filter behave the way they should. There is also an
+LFO for controlling vibrato. I created some presets that I liked that
+you can switch to using the colored buttons. I achieved polyphony by
+creating a "voice" abstraction that contains the oscillators and envelope
+functionality. The voice abstraction receives information from the
+GUI via a bunch of sends. I added some volume control to keep the signal
+from getting louder when you add in more harmonics. I used the ceammc
+external for the resonant filter abstraction and I used cyclone for
+one abstraction \, but I honestly can't remember what it was.;
